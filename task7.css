@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: column-reverse;
+    width: 700px;
+    align-items: center;
+    margin: 50px;
+  }
+  div {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    padding-top: 20px;
+  }
+  label {
+    padding-left: 5px;
+  }
+  #btn {
+    margin-left: 30px;
+  }
