@@ -1,5 +1,5 @@
 var img1 = new Image();
-img1.src = "ds-math-2020-01.png";
+img1.src = "https://zno.osvita.ua/doc/images/znotest/212/21207/ds-math-2020-01.png";
 let img2 = new Image();
 img2.src = "ds-math-2020-02.png";
 let img3 = new Image();
