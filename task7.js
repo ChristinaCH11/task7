@@ -1,15 +1,15 @@
 var img1 = new Image();
-img1.src = "https://i2.wp.com/testderz.com/wp-content/uploads/2018/03/1.png";
+img1.src = "ds-math-2020-01.png";
 let img2 = new Image();
-img2.src = "https://lh3.googleusercontent.com/proxy/lWWIDNwekL67tXcevusydVOa-TJi6vM2AD2NeDb-D1HA8lC01BNyuItGKhqGhmc9G4WfjXlmyVQN2kaSMJM";
+img2.src = "ds-math-2020-02.png";
 let img3 = new Image();
-img3.src = "https://i.ibb.co/H4y5CVL/3.png";
+img3.src = "ds-math-2020-03.png";
 let img4 = new Image();
-img4.src = "https://i.ibb.co/YjxLW0H/4.png";
+img4.src = "ds-math-2020-04.png";
 let img5 = new Image();
-img5.src = "https://i.ibb.co/rv8098R/5.png";
+img5.src = "ds-math-2020-05.png";
 let quest = [img1, img2, img3, img4, img5];
-let right_answer = [a2, a3, a1, a4, a2]
+let right_answer = [a1, a3, a4, a1, a5]
 let num_img = 0;
 let num_ans = 0;
 let sum = 0;
@@ -28,15 +28,14 @@ function fnc1(){
     console.log(a4.checked);
     console.log(a5.checked);
     if (right_answer[num_ans].checked){
-        alert("Вірна відповідь");
+        alert("Правильный ответ:)");
         sum++;
     } else {
-        alert("Невірна відповідь");
+        alert("Неправильный ответ:(");
     }
-    
     num_ans++;
 if (num_ans == right_answer.length){
-    document.body.remove(table);
-    alert("Правильних відповідей:" + sum);
+    document.body.remove(tab);
+    alert("Правильных ответов : " + sum);
 }
 }
